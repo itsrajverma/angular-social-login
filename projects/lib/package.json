@@ -1,0 +1,12 @@
+{
+  "name": "lib",
+  "version": "0.0.1",
+  "description": "Social login and authentication module for Angular 12. Supports authentication with Google and Facebook",
+  "peerDependencies": {
+    "@angular/common": "^12.2.0",
+    "@angular/core": "^12.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
