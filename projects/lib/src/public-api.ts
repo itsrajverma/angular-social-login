@@ -12,3 +12,4 @@ export {
     GoogleLoginProvider,
   } from './providers/google-login-provider';
   export { FacebookLoginProvider } from './providers/facebook-login-provider';
+export { GoogleSigninButtonDirective } from './directives/google-signin-button.directive';
