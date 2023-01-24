@@ -6,7 +6,21 @@
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsrajverma/angular-social-login.git"
+  },
+  "author": "Raj Verma",
   "dependencies": {
     "tslib": "^2.3.0"
-  }
+  },
+  "keywords": [
+    "angular",
+    "angular12",
+    "angular-social-login",
+    "social-authentication",
+    "social-login",
+    "google-authentication",
+    "facebook-authentication"
+  ]
 }
