@@ -4,8 +4,6 @@ import { EventEmitter } from '@angular/core';
 import { BehaviorSubject } from "rxjs";
 import { filter,skip,take } from "rxjs/operators";
 
-// import { BehaviorSubject, filter, skip, take } from 'rxjs';
-
 export interface GoogleInitOptions {
   /**
    * enables the One Tap mechanism, and makes auto-login possible
@@ -15,7 +13,7 @@ export interface GoogleInitOptions {
    * list of permission scopes to grant in case we request an access token
    */
   scopes?: string | string[];
-  /**
+ /**
    * This attribute sets the DOM ID of the container element. If it's not set, the One Tap prompt is displayed in the top-right corner of the window.
    */
   prompt_parent_id?: string;
@@ -181,8 +179,8 @@ export class GoogleLoginProvider extends BaseLoginProvider {
   signIn(): Promise<SocialUser> {
     return Promise.reject(
       'You should not call this method directly for Google, use "<asl-google-signin-button>" wrapper ' +
-      'or generate the button yourself with "google.accounts.id.renderButton()" ' +
-      '(https://developers.google.com/identity/gsi/web/guides/display-button#javascript)'
+        'or generate the button yourself with "google.accounts.id.renderButton()" ' +
+        '(https://developers.google.com/identity/gsi/web/guides/display-button#javascript)'
     );
   }
 

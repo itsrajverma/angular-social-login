@@ -7,7 +7,7 @@ import {
 import { CommonModule } from '@angular/common';
 
 import { SocialAuthService, SocialAuthServiceConfig } from './socialauth.service';
-import { GoogleSigninButtonDirective } from "./directives/google-signin-button.directive";
+import { GoogleSigninButtonDirective } from './directives/google-signin-button.directive';
 
 /**
  * The main module of angularx-social-login library.
